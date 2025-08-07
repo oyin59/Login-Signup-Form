@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>LOGIN/SIGNUP FORM</title>
+    <style>
+        div, .signup{
+            background-color: white;
+            border-radius: 16px;
+            width: 300px;
+            height: auto;
+            margin: 16px auto;
+            padding: 12px;
+            box-shadow:0 0 5px #000;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: justify;
+        }
+        
+        .signup{
+            width: 300px;
+        }
+        h3{
+            text-align: center;
+        }
+        button{
+            border: 0;
+            display: block;
+            margin: 16px auto 0;
+            color: white;
+            padding: 12px 10px;
+            border: 0;
+            box-shadow: 0 0 5px #000;
+            border-radius: 8px;
+            font-weight: 20px;
+            background:linear-gradient(to top left,#f00cd2, pink ) ;
+            size: 200px;
+            width: 150px;
+        }
+        button:hover{
+            background:linear-gradient(to top left, pink,#f00cd2 ) ;
+        }
+        body{
+            background-color: gray;
+        }
+        input[type="text"], input[type="password"]{
+            width: 90%;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+         a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h3>Welcome back</h3>
+        <form action="">
+            <p><i class="fa-solid fa-user"></i> Username</p>
+            <input type="text" name="Full name" id="" required placeholder="Enter username">
+            <p><i class="fa-solid fa-lock"></i> Password</p>
+            <input type="password" name="password" id="" required placeholder="Password">
+            
+            <p><button type="submit"> Login</button></p>
+            <label><input type="checkbox">Remember me</label> 
+            <a href=""> Forgot password?</a>
+            <p>Do not have an account? <a href="signup.html">Sign up</a></p>
+        </form>
+    </div>
+   
+</body>
+</html>
